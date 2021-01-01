@@ -1,0 +1,262 @@
+{
+    "version": 1.1,
+    "tags": [
+        {
+            "name": "a",
+            "attributes": [
+                { 
+                    "name": "load", 
+                    "description": "Aurelia Router: Load the provided component",
+                    "references": [
+                        {
+                          "name": "Aurelia Documentation: Navigating With Load",
+                          "url": "https://docs.aurelia.io/routing/navigating-with-load"
+                        }
+                      ]
+                }
+            ]
+        },
+        {
+            "name": "au-viewport",
+            "description": "The <au-viewport> element is where all of the routing magic happens, the outlet.",
+            "attributes": [
+              { 
+                "name": "name", 
+                "description": "Aurelia Router: The name of the viewport",
+                "references": [
+                    {
+                      "name": "Aurelia Documentation: Named Viewports",
+                      "url": "https://docs.aurelia.io/routing/configuring-the-viewport#named-viewports"
+                    }
+                  ]
+              },
+              { 
+                "name": "default", 
+                "description": "Aurelia Router: The default component to load in the viewport",
+                "references": [
+                    {
+                      "name": "Aurelia Documentation: Default Routes",
+                      "url": "https://docs.aurelia.io/routing/configuring-the-viewport#default-routes"
+                    }
+                  ]
+              },
+              { 
+                "name": "fallback", 
+                "description": "Aurelia Router: The fallback component to load in the viewport, if the user requests a non-existing component",
+                "references": [
+                    {
+                      "name": "Aurelia Documentation: Fallback Rendering",
+                      "url": "https://docs.aurelia.io/routing/configuring-the-viewport#fallback-rendering"
+                    }
+                  ]
+              },
+              { 
+                "name": "used-by", 
+                "description": "Aurelia Router: Restrict which components are allowed to render in the viewport",
+                "references": [
+                    {
+                      "name": "Aurelia Documentation: Specifying Which Components A Viewport Can Render",
+                      "url": "https://docs.aurelia.io/routing/configuring-the-viewport#specifying-which-components-a-viewport-can-render"
+                    }
+                  ]
+              },
+              { 
+                "name": "no-link", 
+                "description": "Aurelia Router: The viewport content isn't added to the browser's location url",
+                "references": [
+                    {
+                      "name": "Aurelia Documentation: Other Viewport Attributes",
+                      "url": "https://docs.aurelia.io/routing/configuring-the-viewport#other-viewport-attributes"
+                    }
+                  ]
+              },
+              { 
+                "name": "no-title", 
+                "description": "Aurelia Router: The viewport content title isn't added to the browser's title",
+                "references": [
+                    {
+                      "name": "Aurelia Documentation: Other Viewport Attributes",
+                      "url": "https://docs.aurelia.io/routing/configuring-the-viewport#other-viewport-attributes"
+                    }
+                  ]
+              },
+              { 
+                "name": "no-history", 
+                "description": "Aurelia Router: Navigation isn't added to browser history.",
+                "references": [
+                    {
+                      "name": "Aurelia Documentation: Other Viewport Attributes",
+                      "url": "https://docs.aurelia.io/routing/configuring-the-viewport#other-viewport-attributes"
+                    }
+                  ]
+              },
+              { 
+                "name": "no-scope", 
+                "description": "Aurelia Router: The viewport doesn't define its own viewport scope, children become part of parent scope.",
+                "references": [
+                    {
+                      "name": "Aurelia Documentation: Other Viewport Attributes",
+                      "url": "https://docs.aurelia.io/routing/configuring-the-viewport#other-viewport-attributes"
+                    }
+                  ]
+              }
+            ],
+            "references": [
+                {
+                  "name": "Aurelia Router: ViewPort",
+                  "url": "https://docs.aurelia.io/routing/configuring-the-viewport"
+                }
+              ]
+        },
+        {
+          "name": "au-nav",
+          "description": "Aurelia Router: Generated navigation menu, based upon routes",
+          "references": [
+            {
+              "name": "Aurelia Documentation: Navigation Menus",
+              "url": "https://docs.aurelia.io/routing/navigation-menus"
+            }
+          ],
+          "attributes": [
+              { 
+                  "name": "name", 
+                  "description": "Aurelia Router: The name of the navigation menu",
+                  "references": [
+                      {
+                        "name": "Aurelia Documentation: Navigation Menus",
+                        "url": "https://docs.aurelia.io/routing/navigation-menus"
+                      }
+                    ]
+              }
+          ]
+        },
+        {
+          "name": "au-slot",
+          "description": "Aurelia Template: au-slot for content projection, simular to slot, but without using Shadow DOM",
+          "attributes": [
+              { 
+                  "name": "name", 
+                  "description": "Aurelia Template: The name of the slot",
+                  "references": [
+                      {
+                        "name": "Aurelia Documentation: Shadow DOM and Slots",
+                        "url": "https://docs.aurelia.io/app-basics/components-revisited#shadow-dom-and-slots"
+                      }
+                    ]
+              }
+          ]
+        },
+        {
+          "name": "bindable",
+          "description": "Aurelia Template: define a bindable property, used for HTML-only components",
+          "attributes": [
+              { 
+                  "name": "name", 
+                  "description": "Aurelia Template: The name of the bindable property",
+                  "references": [
+                      {
+                        "name": "Aurelia Documentation: Shadow DOM and Slots",
+                        "url": "https://docs.aurelia.io/app-basics/components-revisited#with-bindable-properties"
+                      }
+                  ]
+              }
+          ]
+        }
+    ],
+    "globalAttributes": [
+      {
+        "name": "au-slot",
+        "description": "Aurelia Template: au-slot for content projection, simular to slot, but without using Shadow DOM"
+      },
+      {
+        "name": "au-element",
+        "description": "Aurelia Template: au-slot for content projection, simular to slot, but without using Shadow DOM",
+        "references": [
+          {
+            "name": "Aurelia Documentation: The as-element Attribute",
+            "url": "https://docs.aurelia.io/app-basics/components-revisited#the-as-element-attribute"
+          }
+        ]
+      },
+      {
+        "name": "t",
+        "description": "Aurelia Internationalization: Translation key for i18n",
+        "references": [
+          {
+            "name": "Aurelia Documentation: Internationalization",
+            "url": "https://docs.aurelia.io/app-basics/internationalization"
+          }
+        ]
+      },
+      {
+        "name": "if.bind",
+        "description": "Aurelia Template: conditional rendering, add/remove DOM element",
+        "references": [
+          {
+            "name": "Aurelia Template: If/Else",
+            "url": "https://docs.aurelia.io/getting-started/conditional-rendering#if-else"
+          }
+        ]
+      },
+      {
+        "name": "else",
+        "description": "Aurelia Template: conditional rendering (else condition), add/remove DOM element",
+        "references": [
+          {
+            "name": "Aurelia Template: If/Else",
+            "url": "https://docs.aurelia.io/getting-started/conditional-rendering#if-else"
+          }
+        ]
+      },
+      {
+        "name": "switch.bind",
+        "description": "Aurelia Template: switch conditional rendering, add/remove DOM element",
+        "references": [
+          {
+            "name": "Aurelia Template: Switch",
+            "url": "https://docs.aurelia.io/getting-started/conditional-rendering#switch"
+          }
+        ]
+      },
+      {
+        "name": "case",
+        "description": "Aurelia Template: switch conditional rendering (case statement), add/remove DOM element",
+        "references": [
+          {
+            "name": "Aurelia Template: Switch",
+            "url": "https://docs.aurelia.io/getting-started/conditional-rendering#switch"
+          }
+        ]
+      },
+      {
+        "name": "case.bind",
+        "description": "Aurelia Template: switch conditional rendering (multi-case statement), add/remove DOM element",
+        "references": [
+          {
+            "name": "Aurelia Template: Switch",
+            "url": "https://docs.aurelia.io/getting-started/conditional-rendering#switch"
+          }
+        ]
+      },
+      {
+        "name": "default-case",
+        "description": "Aurelia Template: switch conditional rendering (default-case statement), add/remove DOM element",
+        "references": [
+          {
+            "name": "Aurelia Template: Switch",
+            "url": "https://docs.aurelia.io/getting-started/conditional-rendering#switch"
+          }
+        ]
+      },
+      {
+        "name": "repeat.for",
+        "description": "Aurelia Template: Repeat over a collection",
+        "references": [
+          {
+            "name": "Aurelia Template: Rendering Collections",
+            "url": "https://docs.aurelia.io/getting-started/rendering-collections"
+          }
+        ]
+      }
+    ]
+  }
