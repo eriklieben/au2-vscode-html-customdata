@@ -11,3 +11,13 @@
 <au-viewport default="welcome-page" fallback="missing-page"></au-viewport>
 
 
+<ul if.bind="true == true">
+  <li repeat.for="i of [1,2,3,4]">${i}</li>
+</ul>
+
+<bindable name="foo"></bindable>
+
+<template>
+  <au-slot name="test1"></au-slot>
+  <au-slot name="test2"></au-slot>
+</template>
