@@ -1,4 +1,10 @@
-# aurelia-2-ts
+# au2-vscode-html-customdata
+
+Quick test of using custom data for vscode
+
+https://github.com/microsoft/vscode-html-languageservice/blob/master/docs/customData.md
+
+
 
 This project is bootstrapped by [aurelia/new](https://github.com/aurelia/new).
 
